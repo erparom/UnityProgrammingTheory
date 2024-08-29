@@ -42,5 +42,5 @@ public abstract class EnemyAbstract : MonoBehaviour, IPlayer
 
     protected abstract void TakeDamageBehaviour(int damage);
 
-    protected abstract void HitBehaviour(int strengh)
+    protected abstract void HitBehaviour(int strengh);
 }
