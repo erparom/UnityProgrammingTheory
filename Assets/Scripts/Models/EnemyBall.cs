@@ -2,15 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBall : EnemyAbstract
+class EnemyBall : EnemyAbstract
 {
-    // Start is called before the first frame update
     void Start()
+    {
+        enemyName = "Ball";
+    }
+
+    protected override void HitBehaviour(int strengh)
     {
         
     }
 
-    // Update is called once per frame
+    protected override void TakeDamageBehaviour(int damage)
+    {
+        
+    }
+
     void Update()
     {
         

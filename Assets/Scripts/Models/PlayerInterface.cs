@@ -9,5 +9,5 @@ interface IPlayer
     int Speed { get; set; }
     bool IsAlive  { get; set; }
     void TakeDamage(int Damage);
-    void Hit(int Strength); 
+    void Hit(int Strength);
 }
